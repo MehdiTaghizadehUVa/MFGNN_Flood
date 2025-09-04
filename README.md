@@ -106,15 +106,10 @@ python inference.py
 - **IDs:** Simulation identifiers (e.g., `T001`, `T002`, …) must be consistent across LF/HF datasets for paired upsampling.
 - **Normalization:** Training stores min/max stats per feature; test/val strictly reuse them.
 
-> See the paper for node/edge feature definitions, hydrograph descriptors, and CSI metric details.  fileciteturn0file0
+> See the paper for node/edge feature definitions, hydrograph descriptors, and CSI metric details.
 
 ---
 
-## 📊 Reported Benefits (from the paper)
-- **Iowa River (fluvial)**: MFGNN lowers MAE and boosts CSI vs. a single‑fidelity GNN trained under the same compute budget.  
-- **White River (pluvial+fluvial)**: MFGNN yields markedly better MAE/RRMSE/CSI despite far fewer HF runs, demonstrating strong efficiency.  fileciteturn0file0
-
----
 
 ## 🧪 Repro Tips
 - Fix seeds in `constants.py` for repeatability.  
