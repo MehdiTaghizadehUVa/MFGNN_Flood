@@ -1,6 +1,6 @@
 # Multi-Fidelity Graph Neural Networks (MFGNN) for Flood Hazard Mapping
 
-> Reference implementation accompanying the paper **“Multi-fidelity graph neural networks for efficient and accurate flood hazard mapping.”** Environmental Modelling & Software, 193 (2025) 106654. DOI: 10.1016/j.envsoft.2025.106654.  fileciteturn0file0
+> Reference implementation accompanying the paper **“Multi-fidelity graph neural networks for efficient and accurate flood hazard mapping.”** Environmental Modelling & Software, 193 (2025) 106654. DOI: 10.1016/j.envsoft.2025.106654.
 
 This repository provides code to train and evaluate a **two-stage, multi-fidelity GNN (MFGNN)** that combines many inexpensive **low‑fidelity (LF)** simulations with a small number of **high‑fidelity (HF)** simulations to produce accurate, high‑resolution flood hazard maps. The approach operates on **unstructured meshes** and uses **graph neural networks** (MeshGraphNet) for message passing on k‑NN graphs.
 
@@ -9,7 +9,7 @@ This repository provides code to train and evaluate a **two-stage, multi-fidelit
 ## ✨ Highlights
 - **Hierarchical LF→HF learning**: train an LF GNN on coarse meshes; upsample predictions; train an HF GNN to learn residual corrections.
 - **Unstructured-mesh native**: no rasterization required; works directly with HEC‑RAS‑style meshes.
-- **Strong accuracy vs. compute**: achieves lower MAE/RRMSE and higher CSI than single‑fidelity GNNs under the same compute budget.  fileciteturn0file0
+- **Strong accuracy vs. compute**: achieves lower MAE/RRMSE and higher CSI than single‑fidelity GNNs under the same compute budget.
 
 ---
 
@@ -142,11 +142,8 @@ If you use this repository, please cite the paper:
 
 ---
 
-## 📄 License
-Unless otherwise noted, this work is released under the **Apache-2.0** license (to align with NVIDIA Modulus usage). Adjust if your project uses a different license.
 
 ---
 
 ## 🙋 Support & Contact
-Questions or issues? Please open a GitHub issue. For paper‑related inquiries, contact the corresponding author listed in the manuscript.  fileciteturn0file0
-# MFGNN_Flood_Mapping
+Questions or issues? Please open a GitHub issue. For paper‑related inquiries, contact the corresponding author listed in the manuscript.
